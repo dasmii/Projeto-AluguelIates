@@ -1,0 +1,187 @@
+body {
+    background-color: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top:0;
+}
+
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21272b;
+  padding: 20px 20px;
+}
+
+
+.logo-barra {
+  display: flex;
+  align-items: center;
+}
+
+
+.logotipo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+
+.titulo {
+  margin: 0;
+  color: #1bb4e8;
+  font-size: 30px;
+}
+
+.subtitulo {
+  margin: 0;
+  color: white;
+  font-size: 20px;
+}
+
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu li {
+  margin-left: 15px;
+  position: relative;
+}
+
+.menu li + li::before {
+  content: "|";
+  color: white;
+  margin-right: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.imagem-principal {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.barco-principal {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+ .bloco-texto {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translateY( -50%);
+    background:  #1A3243 ;
+    padding: 18px;
+    border-radius: 8px;
+    color: #fff;
+    max-width: 400px;
+}
+
+.frase-destaque {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.telefone {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+
+.frase-destaque {
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+.frase-contato {
+  font-size: 20px;
+  color: #ccc;
+}
+
+
+.icone {
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+
+.telefone {
+  color:  #C6B07F; 
+  font-weight: bold;
+
+}
+
+.secao-destinos-frota {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.cabecalho img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.azul {
+  background-color: #00bfff;
+}
+
+.bege {
+  background-color: #d2b48c;
+}
+
+.grid-frota {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.grid-frota  {
+  width: 10%;
+  border-radius: 4px;
+}
+
+.rodape {
+  background-color: #cccbcb;  
+  text-align: left;         
+  padding: 20px;              
+  font-size: 14px;
+  color: #333;                
+  
+}
+
+
+
+
+
+
